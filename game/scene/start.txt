@@ -1,0 +1,19 @@
+; 初始场景
+intro:一场天灾过去，罗德岛的外派小队准备回归本舰|但是因为天灾过后的航线拥挤，他们被迫在东国当地的一个小型移动都市暂作停留|就在这短短的14天内，因为当地的一台自动售货机故障,一行人卷入了始料未及的危机之中……;
+
+; 正式场景
+changeBg:03.jpg;
+
+setAnimation:enter-from-left -target=fig-left -next;
+changeFigure:立绘_月禾_1.png -left -next;
+月禾:适当地开个小差吧，那样对身体好。;
+setAnimation:enter-from-right -target=fig-right -next;
+changeFigure:立绘_安洁莉娜_1.png -right -next;
+安洁莉娜:好~;
+setAnimation:enter-from-bottom -target=fig-center -next;
+changeFigure:立绘_绮良_1.png -next;
+绮良:呼...哈...;
+; 结束场景
+label:end;
+changeFigure:none -next;
+WebGAL:基础演出的展示已经结束。;
