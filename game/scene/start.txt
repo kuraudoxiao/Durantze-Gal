@@ -1,8 +1,5 @@
-; 初始场景
-intro:一场天灾过去，罗德岛的外派小队准备回归本舰|但是因为天灾过后的航线拥挤，他们被迫在东国当地的一个小型移动都市暂作停留|就在这短短的14天内，因为当地的一台自动售货机故障,一行人卷入了始料未及的危机之中……;
-
 ; 正式场景
-changeBg:03.jpg;
+changeBg:bg.png -next;
 
 setAnimation:enter-from-left -target=fig-left -next;
 changeFigure:立绘_月禾_1.png -left -next;
