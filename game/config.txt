@@ -1,5 +1,5 @@
 Game_name:杜兰兹galgame(demo1);//游戏名称
 Game_key:durantze;//识别码
-Title_img:02.jpg;//标题的图片名称，图片放在/background 文件夹
-Title_bgm:s_Title.mp3;//标题的背景音乐，音乐文件应该放在/bgm文件夹
+Title_img:02.jpg;//标题的图片名称
+Title_bgm:s_Title.mp3;//标题的背景音乐
 Loading_img:none;
