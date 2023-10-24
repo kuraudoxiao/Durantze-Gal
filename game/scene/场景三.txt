@@ -1,0 +1,359 @@
+;场景三
+setAnimation:enter -target=bg-main -next;
+changeBg:街店C.png -netx;
+bgm:热闹的街道.ogg -enter=3000;
+
+:夜晚总是这样悄然而至。
+而对于伊万里这样相对较大的东国城市来说，生活才刚刚开始。
+自古以来，因为盛产优质大米等农产品，伊万里可以说培养了第一批富农，而富农生活带来了相对宽裕的手头，这让伊万里成为了东国最早流行夜生活文化的地区之一。
+例如，眼前这样的夜市。
+密集，密集
+只留下向上的一点点空隙
+四周皆为人造的霓虹填满，五光十色针锋相对却最终不分你我地融为了一种接近烛火的红橙色。
+据说在更早的，还在使用火把与灯笼的年代，也是相同的色彩。
+这会不会是一种，历史的轮回？
+当然，这些繁琐的叨叨，对于正行走在大道上的水月来说，比不上手头的一颗苹果糖。
+setAnimation:enter-from-bottom -target=fig-center -next;
+changeFigure:水月.png -id=sy -next;
+水月:唔姆唔姆，虽然也不是第一次吃呢，但是庆典上的食物总是格外令人怀念。
+啊！是30年前的限定街机，居然能够在这里见到，呀，排队排队~
+ （兴奋地搓手手中）
+居然在现在还能看到《大流士》的原版街机啊，太幸运了，最近喜欢STG的玩家越来越少了，能保存好这个的想必一定是死忠粉了，可以好好交流了！
+changeFigure: none -id=sy -next;
+
+:出现在眼前的队伍，其实并不长。
+就像水月所说，STG毕竟只是个没落的游戏类型，相较于现代愈发轻松向，甚至逃课向的游戏设计。
+stg这样对玩家的即时反应能力以及背板能力要求极高的游戏确实可以称得上被时代抛弃的品类。
+
+:但是，偏偏还是培养了一群不知困难为何物的粉丝们。
+嗯，甚是愉快。
+
+:眼见着面前的队伍逐渐缩短，自己的心跳也不禁快了两分。
+要知道，那可是游历东国都未曾体验过的原版街机台。
+而且是只有初版《大流士》才有的，普通街机三倍以上的屏幕宽度！
+那可是STG界绝无仅有的开创性设计。
+自己之前寻访的地区，不是因为常年运行到达使用寿命，就是因为高昂的专门维修费用而被迫报废《大流士》的街机。
+怎么能放……
+
+bgm:夜の曲.ogg -enter=3000;
+playEffect:匆忙的脚步.ogg;
+某吵闹的男人:不好意思啊，麻烦借过一下。
+: （打开面前的摄影设备）
+ （一阵烦人的调试噪音）
+setAnimation:enter-from-bottom -target=fig-center -next;
+changeFigure:主播.png -next;
+某吵闹的男人:HI，大家好呀~，至死中二，愿与你们同在！我是谷粒哥，今天是我们频道成立三周年！
+为了给大家一个惊喜，我们特别从炎国不远万里来到东国，只为给大家献上最好的周年特辑节目。
+看到这样一个破旧的老街区大家一定很好奇，谷粒哥，你来这种地方干什么？甚至我们直播间一些比较心急的观众已经开始问我。
+“谷粒哥，你不会是在东国没钱吃霸王餐被抓了吧？”
+首先，我们没有吃霸王餐，其次，这里可不是普通的旧街区，这里东国伊万里市的……
+哎，灯光你拍我干嘛？不是说好我们今天录制争取一遍过吗？
+哎，你，你谁啊？
+changeFigure:none;
+
+setAnimation:enter-from-left -target=fig-right -next;
+changeFigure:主播.png -left -next;
+setAnimation:enter-from-right -target=fig-left -next;
+changeFigure:水月4.png -right -next;
+水月: （指了指下面）
+谷粒: （尴尬地对视）
+水月: （又指了指）
+谷粒:私密马三，红豆泥私密马三！
+后面，后面东国话怎么说来着啊？
+小王，你不是说你东国话门清嘛！你来啊！
+ （一阵不可名状的肢体语言）
+水月:啊……其实我听得懂炎国话，你这口音，还是龙门的友仔？
+谷粒:（想死的眼神）啊……听得懂就好，抱歉踩到了您的脚。
+水月:啊，没事的，也是因为听说这里有《大流士》来的？
+谷粒:对对对，我就说嘛，能特意到这种小巷子来的，肯定是发烧友了。
+ （两人先找了一个地方坐下，其他人调试设备去了）
+水月:听你们刚才说的，是因为要做三周年的内容才特意选了这么偏僻的地方吧？毕竟伊万里的车票可不便宜。
+谷粒:啊，当然，不过这只是原因之一啦！毕竟，这也是我们自己的愿望了。
+既然会来这里，你肯定知道现在STG的处境吧？
+
+changeFigure:水月3.png -right -next;
+水月: （点了点头）
+changeFigure:水月.png -right -next;
+谷粒:其实在炎国，街机被引入的很晚，而且又没有什么正规渠道。
+水月:嗯嗯，我听一些在龙门的朋友说过呢！
+谷粒:是吗？怪不得你龙门话这么好。
+我是龙门本地人。
+以前最喜欢的事情，就是每周五放学，拿着攒了一周的零花钱，去隔两条街外的那家。
+哎，那时候我身高就这么点。
+ （比了个高度）
+这种地方嘛，嘿嘿，反正是抢不到，各个人高马大的。
+changeFigure:水月3.png -right -next;
+水月:是这样捏~
+谷粒:所以可羡慕死我啦，打听了好多同学，就这么一台，你说这谁不想摸上一把。结果...
+ （看向眼前正在和老头商量拍摄的同伴）
+结果不知不觉就成了古早街机这块的博主了，哈哈哈，命运真的挺奇妙的呢！
+changeFigure:水月.png -right -next;
+水月:嗯。
+同伴:喂，谷粒，这边基本谈妥了，我们准备正式拍摄？
+谷粒:OK，我来也！
+ （水月拉住了他的衣角）
+谷粒:？
+水月:难得的机会，一起录点素材怎么样？
+谷粒:？？
+changeFigure: none -left -next;
+changeFigure: none -right -next;
+: （五分钟后）
+
+bgm:bgm42.ogg -enter=3000;
+setAnimation:enter-from-right -target=fig-left -next;
+changeFigure:主播.png -left -next;
+setAnimation:enter-from-left -target=fig-right -next;
+changeFigure:水月.png -right -next;
+
+谷粒:难以置信的事情发生了，各位观众们，在寻访珍贵的初版《大流士》街机的过程中，我们无意间遇到了一位玩家，我们就称呼他是天才玩家M吧！
+因为听说我们希望录制一些实机素材，作为爱好者的M自愿进行实机操作，但是……
+但是他的操作实在是太惊人了，目前我们的录制进度是第四个关卡。
+就积分来说，他已经要刷新我对这款游戏的认知了。
+各位朋友们，是的，他的手指就像是灵活到没有骨头一样，我只能这么形容
+每一次都是用最极限的操作挑战玩家的想象力！
+虽然要遵守他本人不愿意出镜的要求，但我还是想说，一位少年，尤其是像他这样拥有出色外貌和超人天赋的选手，参加任何一场电竞赛事都将成为绝对的焦点！
+这真的是惊人的意外之喜啊！
+更多内容，请关注我们频道的后续花絮！
+changeFigure: none -left -next;
+changeFigure: none -right -next;
+拍摄小哥:M，真的好靓仔啊！有没有兴趣去当个电竞偶像什么的？我有熟人可以介绍。
+changeFigure:水月.png -next;
+水月:不用了，我就玩玩，当个爱好。
+众人:啊？
+changeFigure: none -next;
+:因为某个少年的介入，录制花费的时间甚至比预计的还要长得多
+这让一把年纪的店长难以休息，最后不得不花更多的时间来安抚
+不过，总算是在夜市闭幕前，成功完成了摄制工作
+changeFigure:主播.png -next;
+谷粒:呼~一不小心就兴奋过头呢。走！今天我请客，今晚我们不醉不归！
+众人:吔！老大，我们敬爱你吔！
+谷粒:M你也一起？吃顿便饭？
+changeFigure: none -next;
+changeFigure:水月7.png -next;
+水月: （疯狂点头）
+changeFigure: none -next;
+changeFigure:主播.png -next;
+拍摄小哥:对了老大，旁边拐角有个售货机，我带两瓶水再走？
+谷粒:行啊，一起去吧。M，你要喝什么？
+changeFigure: none -next;
+changeFigure:水月4.png -next;
+水月:嗯嗯，让我想想……就海●言吧！我很喜欢盐分呢！
+changeFigure: none -next;
+changeFigure:主播.png -next;
+拍摄小哥:M大人的可得我请，今天实在是太精彩了！
+谷粒:行了行了，快着点，我们等会还得吃饭呢！
+:谷粒和拍摄小哥一个炎国平沙落雁式飞奔
+changeFigure: none -next;
+
+;切换场景
+setAnimation:enter -target=bg-main -next;
+changeBg:饮水机.png -next;
+bgm:BGM54.wav -enter=3000;
+
+:没什么特别的售货机，边角处因为年代，有着很明显的锈蚀。
+这样的机器在东国随处可见。
+据说售货机只有在东国，才有着这样近乎不正常的分布密度。
+这都要拜东国远远超过平均值的天灾发生率所赐。
+每一台，都会在天灾降临时，切换成全免费模式，方便受灾民众尽快获取物资。
+这是只有必须时刻面对地下潜藏的天灾的东国，才会实行的特殊政策。
+
+setAnimation:enter-from-bottom -target=fig-center -next;
+changeFigure:主播.png -next;
+谷粒:唉，真麻烦啊，这种古董型号，只能用东国的硬币，龙门币啥的一概不行。
+ （打开备用皮夹子）
+好像不太够，你这边还有不？
+拍摄小哥:我也就这么多了，给！东国这边支付就是不方便啊！
+谷粒:就只能买三瓶啊……算啦，先给M吧，毕竟等会他也不方便和我们一起喝酒。
+拍摄小哥:嗯！那我也等会再喝酒好了，大哥你也别忍着，先来杯快乐水解解渴吧！
+谷粒:3Q！那我不客气啦。
+changeFigure: none -next;
+
+:在易拉罐开启的瞬间
+playEffect:开饮料.ogg;
+一股强劲的气体喷涌而出，显然经过了相当的颠簸
+但是眼前的男人毫不在意双手变得湿漉漉的。
+一饮而尽。
+
+;切换场景
+setAnimation:enter -target=bg-main -next;
+changeBg:街店C.png -netx;
+
+setAnimation:enter-from-bottom -target=fig-center -next;
+changeFigure:水月5.png -next;
+水月:哎，都过去十分钟了，小哥说的附近还真是一点也不近啊。
+changeFigure: none -next;
+setAnimation:enter-from-right -target=fig-left -next;
+changeFigure:水月5.png -left -next;
+setAnimation:enter-from-left -target=fig-right -next;
+changeFigure:化妆师.png -right -next;
+化妆师:是呀，他对距离一直没啥感觉，反正咱们也不急。
+对了，你在玩啥啊？
+水月:嗯？天堂的皮克敏5.
+化妆师:那是什么，好可爱的小东西！
+changeFigure: none -left -next;
+changeFigure: none -right -next;
+changeFigure:主播.png -left -next;
+谷粒:抱歉，让大家就等啦，刚刚开快乐水的时候，被溅了一身，找了个地方洗洗手。
+changeFigure:水月4.png -right -next;
+水月:谷粒，你的嘴唇！
+changeFigure: none -left -next;
+changeFigure: none -right -next;
+
+bgm:bgm09（谷粒倒下）.ogg -enter=3000;
+:晚了一步，当少年意识到这个事实的瞬间，眼前新朋友的嘴唇正在以肉眼可见的速度失去血色
+原本举着易拉罐的右手迅速失去力气。
+playEffect:★倒れる６.ogg;
+:“哐当”一声，易拉罐坠落。
+其他人这才意识到究竟发生了什么。
+拍摄小哥:啊……啊，大哥，大哥你不要吓我啊，大哥！
+啊……啊！！！！！
+ （抓狂的尖叫）
+（想要逃跑，却自己绊住了双腿）
+ （重重砸在地上）
+其他成员:你……你对大哥做了什么？混蛋！！！
+
+changeFigure:水月6.png -next;
+水月: （沉默）
+changeFigure: none -next;
+
+:“你对大哥做了什么？”
+“你个忘恩负义的东西！”
+“你……”
+changeFigure:水月6.png -next;
+水月:闭嘴！！！！
+: （众人停下来）
+水月:救人要紧！
+ （从怀里扔出通讯器）
+changeFigure: none -next;
+changeFigure:水月6.png -left -next;
+changeFigure:化妆师.png -right -nex;
+化妆师:这是？
+水月:通讯器，马上拨打“罗德岛制药”的号码，快！
+其他人，再有一个人报警或者去找最近的警局。
+剩下的人，找个地方看住拍摄，直到警察或者急救医生过来。
+playEffect:♪携帯電話呼出中.ogg;
+化妆师:那你呢？
+水月:我说过，救人要紧！
+changeFigure: none -left -next;
+changeFigure: none -right -next;
+
+playEffect:心臓３.ogg;
+:克制，克制！
+脑子里反复响起博士的忠告。
+不能在公众面前太过明显地使用自己的能力！
+可是，可是！
+对呀，如果是博士在这里，他会怎么做？
+好好回忆细胞内的记录，博士怎么处理急救，我能做些什么？
+首先，嘴唇发紫，明显的中毒迹象，不管是不是同伴下的毒，第一步，先要判断毒素的种类！
+会在哪里呢？
+目光聚焦在掉落的易拉罐上
+试试！
+迅速拿起易拉罐
+用手指接触液面
+成分解析开始，确定毒素类型
+针对性进化开始，抗体成分生成。
+第二步，将抗体成分注入。
+
+changeFigure:水月6.png -next;
+水月:我要对他进行心肺复苏流程！
+changeFigure: none -next;
+
+: （身边的化妆师点了点头）
+在心肺复苏的按压动作中，悄悄释放着生物电流
+这样就能刺激消化道，起到催吐的作用。
+然后，在换气动作中……
+注入抗体！
+
+不要放弃！
+ （电流声）
+你刚刚看到最棒的《大流士》不是吗！
+ （更激烈的电流声）
+拜托了！只要能坚持到博士来的话！
+ （再次加大电量）
+
+;下雨特效
+pixiInit;
+pixiPerform:rain;
+bgm:下雨.ogg -id=rain -enter=3000;
+:……
+那天，不是个属于奇迹的好日子
+那天，雨下得很大。
+新认识的朋友
+只有反射神经因为生物电刺激
+不断进行着呕吐的动作
+各种东西混合着泡沫翻腾出来
+恶心的紫色、红色、黑色
+脸颊上明显突出青黑色的血脉
+
+:他能够感觉到
+青黑色的血管中，血流的速度正在减慢
+他能听到
+心脏和肺部的鼓动正在虚弱
+他一开始就应该知道的
+等到他看见异常的时候
+一切都已经来不及了
+
+playEffect:心臓4.ogg;
+intro:喂他血肉！|呀哈哈哈哈哈！|喂他血肉！|大群不会死亡|大群永远存续。;
+changeFigure:水月6.png -next;
+水月:住口！;
+
+playEffect:心臓4.ogg;
+intro:你知道应该相信什么|大群不曾说谎;
+水月:我知道
+
+playEffect:心臓4.ogg;
+intro:你知道应当做什么|生命才能存续;
+水月:……
+
+playEffect:心臓4.ogg;
+intro:参与循环|参与循环;
+
+水月:请不要……
+不要用【循环】这种字眼
+侮辱我的朋友！
+setAnimation:doudong -target=bg-main -next;
+ （右手砸向马路）
+
+bgm:下雨.ogg -enter=3000;
+:最后的记忆，停留在自己随身的雨伞
+匆忙赶来的博士
+紧紧抱住自己的安洁莉娜莉娜姐姐
+以及努力掩饰悲伤的月禾姐姐上。
+水月:大家，我尽力了。
+changeFigure: none -next;
+pixiInit;
+
+;切换场景
+setAnimation:enter -target=bg-main -next;
+bgm:医院.wav -enter=3000;
+changeBg:医院.png -netx；
+
+changeFigure:田鹫.png -left -next;
+田鹫:哟~，啊，不是这么做的时候呢，钱形，动作快点！
+changeFigure:钱形.png -right -next;
+钱形:是！对于今天发生的事情深感抱歉，希望水月先生能够配合我们的工作，提供口供信息，因为……啊！
+敲我头干嘛呀，师傅。
+田鹫: （找了个垃圾桶，把烟头扔了进去）
+你叫水月是吧？做得很好，少年。
+你第一时间保护了那位负责拍摄的小哥，防止了事态恶化。
+但是仅仅这样是不够的，我相信你也很明白
+为了洗脱无辜同伴的嫌疑，我们需要你的帮助，对吗？
+
+changeFigure: none -left -next;
+changeFigure: none -right -next;
+changeFigure:水月6.png -left -next;
+changeFigure:田鹫.png -right -next;
+水月: （别过头去）
+ （蜷缩在椅子上）
+田鹫:嗯？
+playEffect:→→走る／道／靴.ogg;
+: （远处传来脚步声）
+博士:好久不见啊，田鹫警官。
+我们……边吃边聊？
+算我的。
+changeFigure:none -left;
+changeFigure:none -right;
+
+;场景四
+callScene:场景四.txt

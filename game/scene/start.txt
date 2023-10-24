@@ -1,0 +1,256 @@
+;开场
+
+intro:本游戏为鹰角网络旗下产品《明日方舟》及其衍生内容的同人二次创作，不可避免的存在一些世界观bug与ooc内容，若个人比较在意请酌情游玩本游戏。
+intro:|现版本为初始demo测试版本，且是本团队第一次制作游戏，可能较为粗糙与不成熟，不代表最终版本的呈现品质，还请大家多多见谅。|最后，感谢您的游玩！
+
+intro:生命在流淌，流淌在眼前的河流中|天上热烈的日轮正处于一年之中最为奔放的时节|无尽的力量涌出，挥洒在每一个生命之上|燥热/燥热，心底里有着这样的呼喊|但正因为燥热，浑身泛起了更多的劲道;
+intro:身上的硫磺味渐渐散去，挥发在这个季节|劳碌的过往也随之淡出了生活|总之，该给自己放个假了;
+;场景1
+
+changeBg:街店A.png -next;
+bgm:日常.wav -enter=3000;
+setAnimation:enter-from-bottom -target=fig-center -next;
+changeFigure:安洁莉娜.png;
+
+安洁莉娜:博士！;
+安洁莉娜:博士！博士！;
+: （倒地声）;
+安洁莉娜:啊！博士！！！！
+: （大约5分钟后）
+安洁莉娜:呼~谢谢大爷，刨冰很好吃！
+博士，这是他们家的招牌哦，月禾姐姐之前特别推荐的。
+据说基本每个来她们家神社参拜的人夏天都会买的。
+博士: （大口嚼嚼）
+安洁莉娜:嘿嘿，不好意思，忘了凯尔希医生的嘱咐了，毕竟是东国的夏天呢
+据说这几年东国，尤其是大型移动城市，空调设备的销售增长率居高不下。呀~真的是越来越热了。
+博士:嗯，差不多可以了。
+安洁莉娜:哎？要不多坐一会儿？不碍事的。;
+毕竟我们刚刚从裂本市那边结束考察任务，连凯尔希医生都说博士你应该至少休息一星期，还特批了假条。;
+changeFigure: none -next;
+setAnimation:exit -target=bg-main -next;
+changeBg:color_黒.png -next;
+
+;切换场景
+intro:1099年6月，裂本市常规航线周边，火山山脉拓展线路;
+setAnimation:enter -target=bg-main -next;
+changeBg:火山.png -next;
+bgm:火山.wav -enter=3000;
+
+setAnimation:enter-from-bottom -target=fig-center -next;
+changeFigure:艾雅法拉.png -next;
+艾雅法拉:博士，装备的二次检查确认无误了吗？
+记得第一步一定是检查泄压阀的情况，如果不是在绿色区域一定要在十分钟内撤离至安全点。
+changeFigure: none -next;
+setAnimation:exit -target=bg-main -next;
+changeBg:color_黒.png -next;
+
+;切换场景
+intro:1099年7月|裂本市/伊万里联合航线|伊万里市中心区域|现在;
+setAnimation:enter -target=bg-main -next;
+changeBg:街店A.png -next;
+bgm:日常.wav  -enter=3000;
+
+:令人难忘的隔热服，中间有三层独立的空气隔热层，面料是哥伦比亚的新款耐热防割复合布。
+这样的设计能够最大限度保证空气的隔热作用，并且在火山地带考察中为穿戴者提供保护。
+这个难忘的夏天，正是从对裂本地区的考察开始的。
+看着手里的草莓味刨冰，你想起了穿着笨重的隔热服，从头盔中眺望远处群山的一瞥。
+setAnimation:enter-from-bottom -target=fig-center -next;
+changeFigure:安洁莉娜.png -next;
+安洁莉娜:呼，时间差不多了吧？也不能让月禾姐姐久等呢？
+:是啊，过去半个月来，所有的努力都是要确保裂本市沿线的火山活动不会引发大规模的天灾爆发。
+如果没有和当地政府的合作，裂本/伊万里等地的民众可能会在半年内迎来载入史册的超大规模天灾。
+等回过神来，自己已经濒临体力的极限了。
+难得月禾主动提出款待参与行动的罗德岛职员，又正好位于大家返程必经之路——伊万里市上，各位自然是恭敬不如从命，欣然参与了这次休假。
+安洁莉娜:说起来，好多人听说月禾姐姐要招待我们的时候都被吓了一跳呢！
+毕竟怎么说也是一支10人小队啊，我自己平常的薪水能请大家一顿已经是要做好咸菜茶泡饭的准备嘞……
+博士: （扑哧）
+changeFigure:安洁莉娜5.png -next;
+安洁莉娜: （脸刷的一下红了起来）
+不……不不是那个意思啦，绝对没有因为第一次拿到薪水很兴奋所以请大家吃饭然后只能……
+changeFigure: none  -next;
+:你摆了摆手，示意自己了然了，又像往常一样安抚起了少女。
+等到手中的刨冰已经完全享用，你们终于意识到，是时候起身前往此行的真正目的地了。
+
+;切换场景
+setAnimation:enter -target=bg-main -next;
+changeBg:城市.png -next;
+bgm:调查.wav -enter=3000;
+
+setAnimation:enter-from-bottom -target=fig-center -next;
+changeFigure:月禾.png -next;
+月禾:知道吗，博士，无论是在东，还是在炎，都信奉着同一个理论。
+我们相信天灾与源石之间的联系不仅存乎于肉眼可及的地上，还有不可见的所谓“龙脉”。
+就比如说裂本市的古地图上，东国阴阳厅曾经标注了至少三条“龙脉”的信息。
+尽管在历史上地图经历了多次版本更迭，唯独这三根线路几乎从未删改过。
+changeFigure: none -next;
+setAnimation:exit -target=bg-main -next;
+changeBg:color_黒.png -next;
+
+;切换场景
+intro:1099年7月|现在;
+setAnimation:enter -target=bg-main -next;
+changeBg:炎国.png -next;
+bgm:调查.wav -enter=3000;
+
+:是的，不止一次看过这样的奇妙理论，也不是只有月禾坚持使用这套理论对天灾进行预测工作。
+setAnimation:enter-from-bottom -target=fig-center -next;
+changeFigure:老鲤.png -next;
+老鲤:呀~博士，你说风水？那种东西是……
+哦，我懂了，如果认真说的话，博士你应该去问问桑葚。
+毕竟现在炎国专业救援队都有相应的教材，作为入门来说可比我这个老头子的胡诌要简洁易懂的多。
+changeFigure: none -next;
+博士: (如果有机会，能够浏览这方面的古籍，想必是每个源石研究者梦寐以求的。)
+:想到这里，你的脚步，不禁加快了几分。
+
+;切换场景
+setAnimation:enter -target=bg-main -next;
+changeBg:街店A.png -next;·  
+bgm:日常.wav -enter=3000;
+
+setAnimation:enter-from-bottom -target=fig-center -next;
+changeFigure:安洁莉娜.png -next;
+安洁莉娜:等等，等等啊博士，真是的，为什么突然这么来劲啊？
+:糟了，因为太过期待，好像有点大脑超频了。
+:但是……眼前这个，是什么情况啊？！！！
+changeFigure: none -next;
+setAnimation:exit -target=bg-main -next;
+changeBg:color_黒.png -next;
+
+;切换场景
+intro:1099年7月|天荷火神社伊万里分社第一鸟居前|接待处;
+setAnimation:enter -target=bg-main -next;
+changeBg:神社接待处.png -next;
+bgm:神社曲.ogg -enter=3000;
+playEffect:匆忙的脚步.ogg -id=cmdjb;
+
+:眼前的人数远远超出了预计
+只有炎国的那句俗语可以形容
+人构成的海洋，在攒动着……
+怎么回事？
+playEffect:none -id=cmdjb;
+
+市民A:听说了吗，尽管咱们这里是分社，但是本社的大人物居然大驾光临了。
+市民B:是啊，想必马上就会召开特别的祭典吧！
+
+bgm:地震.ogg  -enter=3000 -volume=100;
+:为什么，为什么会如此激动？
+相较于自己在一路上常常见过的冷漠与苦闷。
+一位大人物的光临，如果是在莱塔尼亚，只会让民众退避三舍。
+值得吗？
+脚步逐渐缓慢。
+但是身后还有更多的人在涌入这片街道。
+setAnimation:doudong -target=bg-main -next;
+不停地……不曾理智地……冲入……
+setAnimation:doudong -target=bg-main -next;
+糟了！
+setAnimation:doudong -target=bg-main -next;
+在脑海中浮现这个判断的瞬间，已经迟了。
+setAnimation:doudong -target=bg-main -next;
+自己瘦弱的身板，被后背某个市民宽阔的肩膀击中。
+setAnimation:doudong -target=bg-main -next;
+没有来得及回过气，失去重心的身体就已经向前倾倒。
+
+bgm:神社曲.ogg -enter=3000;
+changeFigure:安洁莉娜2.png -next;
+安洁莉娜:啊！
+糟了！
+早年间听过妈妈的坊间传说。
+他们喜欢将神社建在山口。
+狭窄之处，倾斜之处。
+因为只有这样才能隔绝供奉的神灵与俗世。
+只留下一条通往神灵的天路。
+眼前的窄巷，大概只有3.2米宽，却在50米左右的斜坡上汇聚了太多的人。
+博士走得太快。
+必须做些什么！
+目光快速扫视。
+用在信使工作中锻炼出来的动态视力。
+有了！
+changeFigure: none -next;
+:少女左手的法杖迅速亮起红光，随着轻微的挥动，指向了眼前鸟居的区域。
+她的目标是用作负重的，鸟居旁的镇石！
+自己的技艺已经不是当时初出茅庐的那样。
+只要精确地减少大约一半的重量，然后向着无人的区域移动的话！
+
+bgm:春分.mp3 -enter=3000;
+changeFigure:安洁莉娜4.png -next;
+:镇石泛起红色，随后迅速浮起，向着少女指定的区域加速，即将落下……
+
+:青绿的小路
+青绿的小路啊！
+第二的鸟居
+第一的鸟居
+神明大人
+收下夏日的供奉
+最美味的大米
+最甘甜的山泉
+最盛放的樟树
+喜鹊在鸣叫
+渴望着
+今年会是一个丰年
+
+:青绿的小路
+青绿的小路啊！
+伊万里的巴
+第一的鸟居
+第二的鸟居
+速速归来
+
+:那是……熟悉的歌声……
+耳边……响起了曾经无数次在天灾信使会议上听到的声音
+周身泛起了如秋叶般的金黄
+曾经见证的神奇技艺
+能够保护指定之人的光芒
+右手边传来巨石碎裂的轰鸣
+无数小石块飞溅而出
+虽不致命
+却依旧有着不小的威力
+金黄的光芒全数收下了石子的雨
+就像是一把格外坚固的油纸伞
+其余的残片波及的区域，人们纷纷像是失去了重量，在空中堪堪避过了打击。
+
+安心感
+那是只要见过绝对会这样思考的女性
+无比的安心感
+静谧而坚韧
+踏着既不急躁也不故作老成的步伐
+飘然而至
+changeFigure: none -next;
+
+;切换场景
+setAnimation:enter -target=bg-main -next;
+bgm:神社曲.ogg -enter=3000;
+setAnimation:enter-from-right -target=fig-center -next;
+changeFigure:月禾.png -next;
+月禾:不好意思，让各位受惊了。社中的镇石支架年久失修，刚刚意外滚落了。
+还请各位在此处稍作休息，我已经命神社的人员前来处理了。
+:她用眼神示意身旁的巫女
+changeFigure: none -next;
+
+setAnimation:enter-from-right -target=fig-left -next;
+changeFigure:月禾.png -left -next;
+setAnimation:enter-from-right -target=fig-right -next;
+changeFigure:常服巫女严肃.png -right -next;
+巫女:传神社神主口谕，因近期天皇巡回参拜等各项事宜繁杂。
+本社亦顾虑各位祈福之种种需要。
+自即日起，采取限流。
+请需要参拜的市民登记后按照预约时间参拜。
+
+changeFigure:常服巫女微笑.png -right -next;
+:她朝你的方向莞尔一笑，就好似刚刚什么都未曾发生。
+浅浅鞠了一躬，便转过身去，向着身边被刘海遮住目光的巫女轻声说了些什么，再度登上鸟居的台阶。
+changeFigure: none -left -next;
+changeFigure: none -right -next;
+
+市民A:好……好厉害，这就是正统的神道家族的大小姐吗？
+市民B:那对角，不，不会是，兄弟，我记得你说过有哪个大贵族家才会……
+市民C:不会吧，好……好耶！居然是超级大美女啊！这次的贵客！
+
+:你没有理会逐渐热闹起来的人群，因为那名巫女已经走到你的面前，安静地等待同行地少女将你扶起。
+待到站定，她才以标准的直角鞠了一躬，随后才开口
+setAnimation:enter-from-bottom -target=fig-center -next;
+changeFigure:常服巫女严肃.png -next;
+巫女:传大人口谕，各位贵客旅途劳顿，还请跟随我一同沿着参道前往神社。大人会在神乐殿后的房间等待各位。
+changeFigure: none -next;
+
+;场景二
+callScene:场景二.txt

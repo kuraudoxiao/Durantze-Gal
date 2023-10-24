@@ -1,0 +1,787 @@
+;场景四
+
+;切换场景
+setAnimation:enter -target=bg-main -next;
+bgm:面馆.wav -enter=3000;
+changeBg:面馆.png -next;
+playEffect:■食事中.ogg -id=ss;
+
+setAnimation:enter-from-left -target=fig-right -next;
+changeFigure:田鹫.png -left -next;
+setAnimation:enter-from-right -target=fig-right -next;
+changeFigure:钱形.png -right -next;
+:你们对视良久，无言之中，他身后的时钟秒针已经转过两圈。
+博士:这面坨了。
+钱形:没办法呀，又是深夜又是下雨的，人家拉面店还是看在师傅的面子上才……
+田鹫:闭嘴，吃面都堵不上你的嘴。
+:　（三人吸溜面条的声音）
+博士:我们已经检查过那个易拉罐了，没有明显的穿刺痕迹，基本可以判断就是正常原装。
+:嚼叉烧的声音
+田鹫:我大概也能猜到，毕竟我侄女也是他粉丝
+人挺好的，不像是会被自己朋友下毒的。
+:　（在吃海苔）
+钱形:师傅，医生那边出具的报告显示是一种慢性神经毒素，好像是能从河豚身上提取的类型，也就是说……
+:　（喝汤的声音）
+田鹫&博士:随处可见，所以很难查证是吧。
+博士:看两位脸色，最近工作还挺多的？
+田鹫:吃饭，吃饭~，那位叫水月的少年本来嫌疑就不大，我们也不会多为难他的，你放心。剩下的事，我们会处理的。
+钱形:就是啊，最近先是被命令负责神社的安保，然后又是堆积的案子啥的。
+田鹫:把碗收拾一下。
+钱形:好嘞！
+ (抱着垃圾出去了)
+changeFigure: none -left -next;
+changeFigure: none -right -next;
+
+setAnimation:enter-from-bottom -target=fig-center -next;
+changeFigure:田鹫.png -next;
+田鹫:他就这样，傻徒弟一个。
+博士:理解，理解，其实他心还是蛮好的，很照顾人。
+田鹫:我知道你带着兜帽在这种房间肯定很热，所以我就长话短说了。
+公事公办，少年人很好，我也不想委屈他
+明天我和我那个傻徒弟上午呢5点开始在神社值班，下午轮休，你要愿意，可以早点起床和我们打个招呼，然后看看日出啥的，随意。
+其他我就不多唠叨了，既然是神社的贵客，玩得开心点，别憋着。
+就记住一点，最近听说贵族要到什么佛寺参拜，阵仗挺大的，我老了，掺合不动了，就想着没几个月准备退休了，行？
+博士:……行，恭敬不如从命了，到时候肯定找个机会，把那顿饭补上，算我请你了。
+playEffect:▽ドア開ける／風呂.ogg;
+:开门离开
+钱形进入
+changeFigure:none;
+
+setAnimation:enter-from-left -target=fig-right -next;
+changeFigure:田鹫.png -left -next;
+setAnimation:enter-from-right -target=fig-right -next;
+changeFigure:钱形.png -right -next;
+钱形:师傅……你把我们的值班告诉他，不会是……？
+田鹫:你猜为什么一个看着就可疑的兜帽人能够顺利从裂本到咱们伊万里，还是小茜来接待？
+钱形:我知道，但是再怎么样也不能让客人……
+田鹫:我有没有和你讲过我1084年的那个案子？
+钱形:嗯。
+田鹫:为什么最后死了两个人？
+钱形:因为……因为师傅你来不及……
+田鹫:不，就算我赶上了，也只是早晚的问题……
+你没看清楚刚刚那个少年的眼神吗？
+钱形:他……我觉得他能吃了我们所有人……
+田鹫:那你觉得他还在压抑着什么？
+钱形:今天我们才认识的那群人……罗德岛……
+田鹫:有些事情，必须让他们自己做个了断。更何况……
+ （起身）
+我们也早点休息吧，不能耽误了明天的早班。
+changeFigure: none -left -next;
+changeFigure: none -right -next;
+
+;切换场景
+setAnimation:enter -target=bg-main -next;
+bgm:夜の曲.ogg -enter=3000;
+changeBg:街店C.png -netx；
+
+:门外不远处
+setAnimation:enter-from-bottom -target=fig-center -next;
+changeFigure:水月5.png -next;
+博士:都听到了？
+水月:嗯……他们真的是……很好的人呢……
+博士:谷粒对吧，我看了一下他的视频，就像你说的……
+水月:他明明技术很差，反应也不够快，但是都三十多岁的人了
+ （深呼吸）
+好恶心……好恶心……
+就像是龙门下城区的污水
+维多利亚的贫民窟
+哥伦比亚的萨卡兹街区
+ （干呕声）
+我明明能……
+只要把神经末梢伸进去就好
+ （抽泣）
+他们在呼唤着我
+明明可以一起永远地像个傻瓜一样
+永远地……玩下去
+playEffect:;
+博士:那些来自大海的声音……?
+水月:
+ （微微点头）
+ （颤抖着）
+我拼命忍住了
+就像博士你教我的一样
+不能让那种声音，玷污我的朋友
+ （抽泣声减小）
+他和绮良一样，全身心投入每次的节目录制
+连踩了我的脚都没注意到，像个傻瓜一样……
+还说什么请大家不醉不归，明明我不能饮酒……
+博士:我懂……我懂
+水月:我们得做些什么
+现在我脑子里的声音
+还在……
+
+;砸墙音效
+setAnimation:shake200 -target=bg-main -next;
+水月: （砸墙）
+还在响啊啊啊啊！！！！！！！
+！！！！！！！
+烦死了，闭嘴！
+闭嘴，闭嘴，闭嘴！
+博士:嘿，嘿，我在这里，我们还在这里，水月
+ （拥抱住）
+我们会陪着你，一起把真凶找出来。
+水月:嗯……
+博士:好些了吗？
+水月:嗯。
+博士:走吧
+changeFigure: none -next;
+
+;切换场景
+setAnimation:enter -target=bg-main -next;
+bgm:医院.wav -enter=3000;
+changeBg:医院.png -netx；
+
+setAnimation:enter-from-right -target=fig-center -next;
+changeFigure:护士.png -next;
+护士:啊，早知道当年就不报考护理学了，还要值夜班
+setAnimation:doudong -target=bg-main -next;
+啊！！！！！！！
+ （尖啸）
+:眼前的塑料凳子被不知名的力量扭曲
+几乎看不出原本的形状
+墙面上仅仅是手电筒照到的部分，就布满了各种裂痕。
+头脑拒绝理解这样的事实
+晕厥了过去。
+changeFigure: none -next;
+
+;切换场景
+setAnimation:enter -target=bg-main -next;
+bgm:神社曲.ogg -enter=3000;
+:次日清晨5点半
+changeBg:神社客房.png -next;
+playEffect:▽ドア開ける／風呂.ogg;
+: （房门被推动的声音）
+setAnimation:enter-from-right -target=fig-center -next;
+changeFigure:月禾2.png -next;
+月禾:抱歉，因为要留出空，我就趁早饭前把今天一些功课先做了，让大家久等了。
+changeFigure: none -next;
+setAnimation:enter-from-left -target=fig-right -next;
+changeFigure:月禾2.png -left -next;
+setAnimation:enter-from-right -target=fig-right -next;
+changeFigure:安洁莉娜4.png -right -next;
+安洁莉娜:没事，没事，我们也刚刚从警官那里回来。
+博士:一起吃早饭吧。
+月禾:嗯
+ （坐下）
+月禾:水月的事情，我很抱歉。
+博士:不是你的错，月禾，这是个意外。
+月禾:田鹫那边怎么说？
+博士:其他没啥，但是他聊到了最近一些关于参拜的事情。
+月禾: （叹气）
+果然吗……
+博士:方便说吗？
+月禾:他真的一直是这样呢。
+我简单说明一下吧，博士，你来神社的路上，应该有看到本地人对贵族的态度吧？
+博士:安洁莉娜，你觉得如何？
+安洁莉娜:好奇怪……他们，真的很激动。
+月禾:对，你们知道为什么吗？
+博士:略有耳闻，夜刀的手册上有说过，这边的神社和当地居民的生活息息相关，所以地位特别高。
+月禾:那手册上也一定介绍了东国天灾的特点。
+博士:对，这里的天灾和其他国家不同，更多表现在移动城市下方的地壳剧烈运动上，所以神社很大一部分工作就是在处理天灾上。
+月禾:对，我们自古以来，就必须学会怎么从预测到疏散，再到灾后组织救济和重建。
+和其他国家不同，我们神社相关的家族，一般情况下，名声都不会太差。
+更何况这里是伊万里，东国的大粮仓之一，如果因为天灾导致减产，对贵族自己也是巨大损失，因此更是格外注意。
+安洁莉娜:所以这么热情啊……那为什么还要特地提醒我们？这不是有利于我们的调查嘛？
+月禾:……您应该明白，东国现在是什么情况，神社名声太好，也不一定是好事。
+博士:你是说……这次所谓的贵族集体参拜其实是……
+月禾:言尽于此，各位，老先生也是出于好心，借着博士的口转述给我罢了。
+博士:也就是说，这次案件最难的，从来都不是“谁是真凶”，而是“怎么找出来以后全身而退”？
+月禾: （无言地点头）
+博士:啊……这世道，果然还是如此啊……看来没让水月先过来是正确的。
+警方不能大规模调动，神社出手也不能太明显吗……
+最后的逮捕肯定要交给那两位，但是又不能让这件事的功劳全算在他们头上。
+不然我们一片好心，让老先生退休都不得安宁更不好。
+月禾，虽然是非常无理的要求，可否，借那位巫女小姐一用？
+月禾:你是说……？
+好，我一会儿就去问问。
+安洁莉娜:？
+博士: (转向少女）
+安洁莉娜，我还有一个请求。
+你这边肯定有东国方面信使的联系方式对吧？
+安洁莉娜: （点头）
+博士:拜托了，两位，我目前的计划是这样的。
+我和水月进行搜查。
+安洁莉娜，你负责从茜小姐那边了解现在东国，尤其是高中女生常用的聊天方式，然后实时将对应的线索内容传播出去。
+所有人安全的第一重保障，就是尽可能在信使和茜小姐的人际圈子里散布消息，人数越多，越安全。
+月禾。
+月禾:嗯。
+博士:你这边保持平常的生活节奏，除非我和水月在搜查过程中出现问题，第一时间会想办法联系你。
+另外，如果在裂本市获取的数据没问题的话，多少伊万里这边会有余震，无论如何，我们都要尽可能保证不发生更大的意外。
+
+:所有人都默契地对视了一眼
+那是多次合作才有的眼神
+
+博士:那我先去水月房间了。
+playEffect:▽ドア開ける／風呂.ogg;
+ （拉上房门）
+changeFigure: none -left -next;
+changeFigure: none -right -next;
+
+;切换场景
+setAnimation:enter-from-bottom -target=fig-center -next;
+changeFigure:水月7.png -next;
+水月:博士，早呀~今天的早饭很不错呢~
+博士: （一脸认真地坐下）
+呀！
+痛痛痛！
+东国正坐好难习惯啊！
+ （土拨鼠尖叫）
+: （五分钟后）
+changeFigure:水月3.png -next;
+水月:芙蓉姐姐教授的按摩操如何，博士？
+博士:一库~~~~
+啊~舒服多了!
+哎呀，昨晚闹太久，结果把腰给扭了。
+水月: ……
+博士:啊，别在意，之前考察累着了，贴个膏药就好。
+东国其他不一定有，各种药妆店是真的多，*
+他们，他们平常是不是年轻人就，就不用吃饭的？
+就靠保健品，还有……化妆品？
+难怪我们罗德岛上面女生进口量最大的居然是东国的药妆，**的药妆！
+哦，对了，医疗部门除外。
+凯尔希不让。
+这话你可别和她说嗷！
+changeFigure:水月.png -next;
+水月: （噗嗤）
+博士:啊~舒服啊。那没啥问题的话，我们就准备开启新一天啦！
+今日目标，药理学检测！
+水月: ？
+changeFigure: none -next;
+
+;切换场景
+setAnimation:enter -target=bg-main -next;
+bgm:调查.wav -enter=3000;
+changeBg:罗德岛办事处.png;
+
+:上午7点35分，罗德岛驻伊万里分部办事处，备用实验室
+setAnimation:enter-from-right -target=fig-center -next;
+changeFigure:水月4.png -next;
+水月:啊这，我记得我们应该在放假对吧？
+博士:对呀。
+水月:我们刚刚是撬锁进来的对吧？
+博士:对呀。
+水月:所以我们明明都在休假，然后罗德岛的专家，把自家的办事处的门翘了，再进实验室搞大新闻？
+博士:不然呢？离开了这里哪里有这么质量高，种类齐全，最重要的是我们留下任何痕迹都没问题的设备。
+水月: （诶嘿）
+博士:好了，不开玩笑了，昨天你尝试使用毒素制作抗体了对吧？
+我们现在首先就是要还原毒素的具体成分和大致的来源范围
+毕竟那个可乐罐子已经被警方作为证据上交，原本应该是通过可乐投毒方式来搜查的。
+changeFigure: none -next;
+
+;切换场景
+setAnimation:enter -target=bg-main -next;
+changeBg:伊万里海鲜市场.png -next;
+
+: （大约两个小时之后）
+setAnimation:enter-from-left -target=fig-center -next;
+changeFigure:安洁莉娜.png -next;
+playEffect:【システム】切替１(短信).ogg;
+安洁莉娜:您有一条新信息？
+:毒素具体成分:见附件。
+:可能来源:东国特产的河豚类，确认在伊万里有对应品类。
+:建议行动:找东国信使，最好是熟悉海产品市场的。
+:注意事项:问问茜小姐有没有熟人。;
+changeFigure:安洁莉娜2.png -next;
+安洁莉娜:啊~茜小姐，那个，我现在在伊万里海鲜市场门口
+哎~对，这不是要给博士准备便当嘛~
+什么，半小时内过来，亲自教授正统爱心便当，还是秘传？
+阿里嘎多！
+changeFigure: none -next;
+
+;切换场景
+setAnimation:enter -target=bg-main -next;
+bgm:神社曲.ogg -enter=3000;
+changeBg:神社接待处.png -next;
+
+setAnimation:enter-from-left -target=fig-center -next;
+changeFigure:常服巫女微笑.png -next;
+茜:呀~居然真的有戏嘛~
+诶嘿嘿嘿嘿嘿~
+太棒了，最近有东西下饭了！
+Yes！
+赞美巴神，赞美泰伯
+赞美所有我认识和不认识的八百万荒神
+我爱你们！
+changeFigure: none -next;
+
+;切换场景
+setAnimation:enter -target=bg-main -next;
+bgm:调查2.ogg -enter=3000;
+changeBg:罗德岛办事处.png -next;
+
+:计划第一步:确定河豚来源范围
+启动！
+
+setAnimation:enter-from-bottom -target=fig-center -next;
+changeFigure:水月2.png -next;
+博士:范围有点大
+水月:确实有点大，一共1736人呢，其中还有三分之一还不一定是真名
+至少我觉得东国人应该不会叫自己是“狗蛋儿”。
+博士:得加点筛选范围。
+还有什么条件可以筛选一波的？
+水月:话说可乐，最好喝的一般都是灌装吧？为啥啊？
+博士:因为据说……气密性好，所以喝着气足？
+诶，等等，气足？
+对呀
+水月，我记得你说过，当时一看现场就是，这可乐气很足？
+changeFigure:水月5.png -next;
+水月:液体满地都是，一股焦糖味。
+博士:！
+有说法啊。
+水月:？
+博士:水月你知道吗？一般的推理小说中，常见的在饮料中投毒的手法，基本绝对不会是易拉罐，更不会是可乐，为什么？
+水月:因为……会漏气？
+博士:对，因为你只要是任何一款已经完成封装的碳酸饮品，后期注入药物的行为都会导致严重的漏气，更何况，易拉罐内部气压往往更高，因此更容易产生破损，因此任何后期投毒的行为，用在易拉罐碳酸饮料上都不合适，因为会……没气！
+除非……
+水月:有人能从源头解决这个问题，也就是一开始就注入？
+博士:宾果！完全正确！
+changeFigure: none -next;
+
+;切换场景
+setAnimation:enter -target=bg-main -next;
+changeBg:神社客房.png -next;
+setAnimation:enter-from-left -target=fig-right -next;
+changeFigure:月禾2.png -left -next;
+setAnimation:enter-from-right -target=fig-right -next;
+changeFigure:安洁莉娜2.png -right -next;
+
+playEffect:【システム】切替１(短信).ogg;
+安洁莉娜/月禾:您又有一条新信息未读？
+:追加条件:
+ （1）任何可能获得自主封装易拉罐技术的
+ （2）任何熟悉东国可乐流水线的
+ （3）任何能够直接接触售货机的
+: 注意点:一些细节，尤其是东国人才了解的。
+
+changeFigure: none -right -next;
+changeFigure: none -left -next;
+
+
+changeFigure:安洁莉娜.png -next;
+安洁莉娜:对了，我突然想起来有急事，水月弟弟中午的饭，也要准备，要不再去弄点别的食材？
+changeFigure: none -next;
+changeFigure:常服巫女微笑.png -next;
+茜:？也行吧。
+changeFigure: none -next;
+
+;切换场景
+setAnimation:enter -target=bg-main -next;
+changeBg:神社接待处.png -next;
+playEffect:→→走る／道／靴.ogg;
+setAnimation:enter-from-right -target=fig-center -next;
+changeFigure:月禾2.png -next;
+月禾:喂，在吗？
+其他巫女:月禾大人？
+月禾:我想了解一下，伊万里这边，垃圾回收一般怎么处理的，毕竟昨天我们外出到很晚，房间里现在一堆外卖，实在是难看。
+众巫女:好的，请随我来。
+ （悄声）
+不愧是贵族家的大小姐，带头了解我们的环保条例！
+ （很激动的声音）
+对了，今天是不是易拉罐回收日？
+ （平静的声音）
+今天周四，确实是，所以老婆婆应该会过来。
+ （激动的声音）
+那怎么办，毕竟这样直接见面不太好吧？
+ （平静的声音）
+嘘！
+月禾:对了，我刚刚好像听到什么今天是“易拉罐回收日”，能冒昧请你们带我去看一下嘛？
+众巫女:好……好的，没问题！
+changeFigure: none -next;
+
+;切换场景
+setAnimation:enter -target=bg-main -next;
+changeBg:罗德岛办事处.png;
+
+setAnimation:enter-from-bottom -target=fig-center -next;
+changeFigure:水月.png -next;
+水月:博士，月禾姐姐的新消息，她说可乐瓶子有新线索，要求通话！
+changeFigure: none -next;
+博士:谢谢你，把手机给我吧。
+ （接听键的声音）
+miniAvatar:月禾.png;
+月禾:我问了一位专门负责易拉罐回收工作的老婆婆，因为我非常好奇她为什么特意将一些包装完好的易拉罐分开来处理，结果你猜怎么样？
+miniAvatar:none
+博士:你发现了可乐投毒的新技巧？
+miniAvatar:月禾.png;
+月禾:没错！原来东国的回收点有额外奖励的机制，可以将已经开封过但是比较完好的易拉罐重新注入可乐后封装！
+miniAvatar:none
+博士:也就是说，只要犯人有相关的回收资格，就能用完好的易拉罐制成的新可乐？
+miniAvatar:月禾.png;
+月禾:正确，但是正常流程下，这种可乐会有特别标记，也就是仅供回收人员自己饮用，不可能放到市场上售卖，更何况正常进货的时候，这个标记一定是会检查的，内行人都知道这事儿。
+miniAvatar:none
+博士:但是……售货机自己不可能检查这个，除非……
+miniAvatar:月禾.png;
+月禾:正确，就是那个“除非”。
+miniAvatar:none
+博士:已经很充分了，剩下的就是些微小的工作了，感谢！
+miniAvatar:月禾.png;
+月禾:分内之事，那我就先到这里了，毕竟让其他巫女帮忙已经有点引入瞩目了，剩下的，看你们了。
+miniAvatar:none
+博士:嗯！;
+
+
+changeFigure:水月5.png -next;
+水月:怎么样？
+博士:我们只需要最后一个线索，水月，但是我现在不知道怎样从警方手上要到售货机的值班名单。
+水月:我们不需要去，博士，我知道谁可以！
+changeFigure: none -next;
+
+;切换场景
+setAnimation:enter -target=bg-main -next;
+changeBg:罗德岛办事处2.png -next;
+:直播间开启，推流开始
+开播预告视频上传完毕！
+setAnimation:enter-from-right -target=fig-center -next;
+changeFigure:化妆师.png -next;
+化妆师:大家好呀，这里是谷粒的直播间，在本次直播开始前，我们收到了一张粉丝投稿的神秘照片。
+上面的这台售货机的附近，据说有《R-type》初版的街机收藏
+但是我们不清楚具体地址，不知道各位观众能否帮助我们搜索一下，我们非常欢迎提供线索的观众加入我们本次的探店节目！
+changeFigure: none -next;
+changeFigure:水月5.png -next;
+水月:反响怎么样？
+changeFigure: none -next;
+后期:浏览量已经超过十万，最快估计今天下午就能有消息！
+changeFigure:水月4.png -next;
+水月:拜托大家了！
+化妆师:什么话，大家都是为了大哥，一定要把这件事查个清楚！
+后期:对，不能让大哥就这么白死了！一定要把那个混蛋揪出来！
+
+博士:也就是说
+ （啊呜）
+这边的售货机是三班倒，三个人都有可能是吧？
+ （啊呜）
+ （吞咽声）
+所以，枚举法还是……
+changeFigure: none -next;
+setAnimation:enter-from-bottom -target=fig-center -next;
+changeFigure:安洁莉娜4.png -next;
+
+安洁莉娜: （咀嚼）
+也不一定，我听妈妈说过，因为南北朝分裂，当时经济出现过一次剧烈震荡
+导致相当多的年轻人破产，结果就是东国的啃老族问题异常尖锐，而当时东国解决危机的办法就是……
+changeFigure:none;
+changeFigure:安洁莉娜.png -left -next;
+changeFigure:月禾2.png -right -next;
+月禾:对，开放了很多临时岗位，然后设立了最低时薪保障生活。其中售货机和垃圾回收工作应该说是重点单位嘛……
+总之吸纳了很多失业人员。
+博士:也就是说，只要家里人同时满足两个条件，就极有可能是……
+安洁莉娜:看看名单？
+月禾:看看名单？
+博士:好，看看名单！
+changeFigure: none -left -next;
+changeFigure: none -right -next;
+
+;切换场景
+changeFigure:常服巫女微笑.png -next;
+茜: （下饭中）
+诶嘿嘿哈哈，虽然听不清楚他们在聊什么，但是相当下饭。
+ （嚼嚼）
+changeFigure: none -next;
+
+;切换场景
+changeFigure:水月.png -next;
+博士:给
+水月:就是他？
+博士:
+ （无声点头）
+水月:拜托了！
+博士:嗯，剩下的就是怎么告知二位了。他们是相当优秀的警察，其实只要一点点线索就……
+changeFigure: none -next;
+
+;切换场景
+setAnimation:exit -target=bg-main -next;
+changeBg:color_黒.png -next;
+:当天下午3点40分，罗德岛驻伊万里办事处值班室
+setAnimation:enter -target=bg-main -next;
+changeBg:罗德岛办事处2.png -next;
+
+罗德岛干员:这是我们这边寄出的当日送物品，是警局委托我们化验的样本，请务必亲手交给收货人！
+信使:我们办事，您放心，多大的事！
+
+;切换场景
+setAnimation:enter -target=bg-main -next;
+changeBg:伊万里海鲜市场.png -next;
+
+:当天下午4点28分，伊万里北部海鲜市场
+changeFigure:常服巫女微笑.png -next;
+茜:诶，怎么您今天这么开心？
+摊主:那是，我和您说，我要上节目啦，有个很出名的主播。
+我女儿听说他们在找一张照片上的地点，我一看，这不我家附近嘛？
+就和他们聊了聊，结果他们就请我去录制节目啦！
+茜:是吗？恭喜呀，那他们还问了什么？
+摊主:他们……哦对了，他们因为是炎国人嘛，就很好奇为啥这里垃圾分类这么严格。
+我就和他们说了说我们这边好多老人还要出来做垃圾回收的事情。
+茜:怎么这么巧？他们叫什么名字？
+摊主:好像叫做……啥来着……谷粒？
+changeFigure:常服巫女惊讶.png -next;
+茜:谷粒！
+changeFigure: none -next;
+
+;切换场景
+setAnimation:exit -target=bg-main -next;
+changeBg:color_黒.png -next;
+:当天下午4点28分，伊万里北部海鲜市场
+setAnimation:enter -target=bg-main -next;
+changeBg:伊万里海鲜市场.png -next;
+
+changeFigure:信使.png -next;
+信使:喂，在吗？有人在吗？
+changeFigure: none -next;
+田鹫:有，有，门没锁你直接推就行！
+changeFigure:田鹫.png -next;
+changeFigure: none -next;
+changeFigure:田鹫.png -left  -next;
+changeFigure:信使.png -right  -next;
+信使:是田鹫警官？
+田鹫:对，我就是，怎么了？
+信使:罗德岛的快件，签收一下？
+changeFigure: none -left -next;
+changeFigure: none -right -next;
+changeFigure:钱形.png -next;
+钱形: （小声）我们应该没有那种？
+changeFigure: none -next;
+changeFigure:田鹫.png -next;
+田鹫:学聪明了，帮师傅签一下呗？
+ （一阵急促的电话铃声）
+田鹫:今天还真忙啊——喂——这里是田鹫。
+miniAvatar:常服巫女微笑.png;
+茜:小爷爷，你好像说过最近碰上了个和炎国游客有关的案子？
+miniAvatar:none;
+田鹫:怎么啦，爷爷今天都准备早点下班溜号子了。
+miniAvatar:常服巫女微笑.png;
+茜:他们是不是叫做“谷粒”测评组？
+miniAvatar:none;
+田鹫: （直起身子）
+详细说说！
+changeFigure: none -next;
+
+;切换场景
+setAnimation:enter -target=bg-main -next;
+changeBg:伊万里警察总署.png -next;
+changeFigure:钱形.png -next;
+钱形:……
+changeFigure: none -next;
+局长:还真是……都要海祭了，闹出这么大的事情，还牵涉了炎国人，这都什么时候了，混蛋！
+怎么处理？
+我不管你们用什么方法！
+三天，三天内！给我把这件事结了！听到没！
+结不了，你们的生涯，一起了结！
+散会！
+changeFigure:钱形.png -next;
+钱形: （凑过去）
+局长:你那个老不死的师傅呢？又说自己老了回家睡觉去了？
+哼，离退休就这么几个月了
+让他摸一遍去！
+钱形: （赔笑）
+ （凑过去）
+局长，其实这次我和俩哥们私底下聊了，您看这个……
+局长:emmmm，可靠吗？
+钱形:这个化验机构是有国际信誉度的，他们不会拿企业形象开玩笑。
+局长:不错嘛，小子，开窍了啊！
+我就说嘛，当初第一名毕业的脑子，怎么可能笨。
+好好干，这次干成了，我马上准备让你升巡查部长。
+钱形:是，感谢局长一直以来的栽培。
+changeFigure: none -next;
+changeFigure:钱形.png -next;
+ （转身打开通讯器）
+师傅？
+miniAvatar:田鹫.png;
+田鹫:按照我教你的说了？
+miniAvatar:none;
+钱形:局长批下来了，逮捕令！
+miniAvatar:田鹫.png;
+田鹫:那个老东西就这样，不然怎么这么多年就是个局长
+呵，你早点回来，我们明天就把事情办了。
+ （挂断）
+miniAvatar:none;
+changeFigure: none -next;
+
+;切换场景
+setAnimation:enter -target=bg-main -next;
+changeBg:街店C.png -netx；
+:次日凌晨4点，某街区廉价公寓
+changeFigure:田鹫.png -next;
+田鹫:停一下
+ （侧过头去）
+少年，我们又见面了。
+ （摘下帽子放在胸前）
+changeFigure: none -next;
+changeFigure:水月7.png -next;
+水月:他现在在深度睡眠状态，只要不是大地震，不会醒的。
+另外，代表博士，还有谷粒的团队
+ （鞠躬）
+谢谢，还有麻烦你们了。
+changeFigure: none -next;
+
+changeFigure:田鹫.png -left -next;
+changeFigure:钱形.png -right -next;
+田鹫:结束之后，我们一起吃顿饭吧！走了，钱形！
+钱形:是！
+ （故意装作撞击破坏其实已经打开的房门）
+钱形:售货机补货员田中，因你涉嫌本次可乐投毒案件，我们将对你实施逮捕！
+changeFigure: none -left -next;
+changeFigure: none -right -next;
+
+;切换场景
+setAnimation:enter -target=bg-main -next;
+bgm:bgm13.ogg -enter=3000;
+changeBg:包厢.png -next;
+
+:次日晚上6点30分，伊万里某平价居酒屋内包厢
+众人: （点头）
+: （一分钟过去后）
+changeFigure:田鹫.png -next;
+田鹫:那就，为这位炎国朋友，还有这几天辛苦了的各位，干杯！
+众人:干杯！
+changeFigure: none -next;
+changeFigure:田鹫.png -left -next;
+changeFigure:月禾2.png -right -next;
+月禾:田鹫先生，这里的菜品质量都相当可以呢！
+changeFigure: none -left -next;
+changeFigure: none -right -next;
+changeFigure:田鹫.png -next;
+田鹫:那是！
+playEffect:▽ドア開ける／風呂.ogg;
+田鹫: （包厢门被拉开）
+老板娘:那是，田鹫先生的话，什么时候来我们都要把这件包厢留好呢！
+对吧，老爷子！
+老板:什么话，要是没有田鹫你，我们这个门面可保不住啊！哈哈哈哈哈哈，各位放心吃，敞开了吃！
+田鹫:不敢当不敢当呀，一把老骨头了，现在每天就盘算着怎么早点退休。
+老板娘，以后我没事情干了，和铃木老板去钓鱼，你可别见怪嗷！
+老板娘:那不行，你们要是出去，7点前必须给我回来！
+就在这里吃饭！
+田鹫:哈哈哈哈哈！钱形，你听到没有，以后你呀，加班结束不知道去哪里混，就来这里，这里的口味，准没错！
+ （起身到博士面前）
+ （小声）
+这次真是辛苦你了，几份线索，先是分成化验报告单附件，然后是茜让摊主进行实名举报，后面又有东国高中女生的聊天记录，好家伙。
+博士:您也不希望晚几年钓鱼，不是嘛？
+田鹫:谁知道呢，现在唯一放心不下的就钱形这个傻小子。
+我自从1084办完一桩案子以后，基本就算是退居一线，专门给上头带新人了。
+他们知道我的性子，但是又舍不得我的资历，就让我敲打那些热血上头的新兵蛋子。
+因为干了久了，什么人都见过。
+新兵跟着我，往往有能耐的没几年就上去了，留下我这个老头子一直在伊万里这一亩三分地。
+寂寞啊——
+博士:钱形他肯定可以的，假以时日的话。
+田鹫:是啊，我都当爷爷的人了，大哥的孙女都在神社几年了。
+你看，茜，出落得多漂亮啊！
+博士: （点头）
+我不胜酒力，就先把这杯乌龙茶干了吧！
+田鹫:干杯！
+博士:干！
+changeFigure: none -next;
+
+changeFigure:安洁莉娜2.png -next;
+安洁莉娜:对了，所以这次事件的作案动机究竟是什么？
+changeFigure: none -next;
+changeFigure:钱形.png -next;
+钱形: （小声）
+据说是因为在某个老电影上找到了灵感，那个补货员就想要通过投毒的方式来报复社会。
+典型的啃老族，老母亲是回收站工作的。
+拿了ID卡就搞定了可乐的问题。
+然后就随机混在饮料里。
+changeFigure: none -next;
+changeFigure:月禾2.png -next;
+月禾:……
+changeFigure: none -next;
+changeFigure:安洁莉娜.png -next;
+安洁莉娜:怎么啦，月禾姐姐，皱着眉头？
+changeFigure: none -next;
+changeFigure:月禾2.png -nex;
+月禾:老电影？好像有点印象，但是一下子又想不起来是哪部片子……
+changeFigure: none -next;
+changeFigure:钱形.png -next;
+钱形:犯人自己也没交代，毕竟都快四十多了，记性一塌糊涂，我们做笔录的时候他说话颠三倒四的。
+changeFigure: none -next;
+
+;切换场景
+setAnimation:exit -target=bg-main -next;
+changeBg:color_黒.png -next;
+: （一小时后）
+setAnimation:enter -target=bg-main -next;
+changeBg:包厢.png -next;
+
+changeFigure:田鹫.png -left -next;
+changeFigure:钱形.png -right -next;
+田鹫:咳咳
+钱形:师傅，怎么啦？
+田鹫:害，烟瘾犯了。
+各位，不好意思，我到外边乘个凉。
+playEffect:▽ドア開ける／風呂.ogg;
+田鹫: （推开包厢门）
+老板娘，还是出门左转是吸烟区？
+changeFigure: none -left -next;
+changeFigure: none -right -next;
+:脚步声逐渐远去。
+
+bgm:案件重复.wav -enter=3000;
+:一分钟，五分钟，十分钟。
+欢乐的时间，总是过去得很快
+意识到哪里不对劲时，已经是15分钟后。
+
+:最先意识到的是博士，他撇了眼手表
+第二个反应过来的是钱形，便箭一般冲了出去。
+众人甚至没意识到发生了什么。
+
+changeFigure:水月4.png -next;
+水月:15分钟了，难道？
+博士:老板娘，你这里有急救设备嘛！
+changeFigure: none -next;
+changeFigure:月禾2.png -left -next;
+changeFigure:常服巫女严肃.png -right -next;
+月禾:茜你先和我走！准备医疗法术！
+茜:是！
+changeFigure: none -next;
+changeFigure: none -left -next;
+changeFigure: none -right -next;
+changeFigure:钱形.png -next;
+钱形:师傅！师傅！田鹫师傅！
+setAnimation:doudong -target=bg-main -next;
+钱形:不，不，这不是真的，师傅你睁开眼睛，不要吓我啊！
+changeFigure: none -next;
+
+:在地上，朝日啤酒的易拉罐流淌了一地的液体。
+就像是三天前的那个夜晚一样。
+开启的罐头，毫无知觉的消费者
+还有到场10分钟后的死亡。
+分毫不差。
+
+:唯一不同的是
+老人用夹着烟头的左手，点在了学生的胸前
+心脏上的衣服，留下了永远无法消除的焦痕。
+他笑着，合上了双眼。
+
+changeFigure:常服巫女严肃.png -next;
+茜:这是小爷爷留下的，看看吧。
+changeFigure: none -next;
+
+博士:可乐，生啤，易拉罐。
+什么样的人，才会设下这样的困局？
+
+changeFigure:水月6.png -next;
+水月:虽然还是不太明白人类
+但是田鹫先生，我一定会为您讨个公道。
+changeFigure: none -next;
+
+月禾:距离天皇的典礼，还有最后10天。
+巴神啊，我们该何去何从？
+
+changeFigure:安洁莉娜4.png -next;
+安洁莉娜:我不想再失去了，所以……
+changeFigure: none -next;
+
+:师傅是死在了警局的庆功宴上，
+这里的人都是熟人，
+并且，师傅一直在提的他调查的案子，
+那么答案就只有一个了
+changeFigure:钱形.png -next;
+钱形:如果穿着这身衣服不能实现正义
+那我宁愿放弃现在拥有的一切！
+:年轻人笃定了信念，
+走到了仅仅认识一天的博士面前
+钱形: ……
+请允许我加入罗德岛！
+changeFigure: none -next;
+intro:投毒案的真相究竟是什么？|伊万里的风暴之下有怎样的过去？|1084年究竟发生了什么？|觉醒的年轻人又会选择何种道路？|正式版游戏，逐一揭晓答案！;
+intro:制作成员：|总负责人、制作：云箫|人员管理、宣发：予熙|演出、协助：鸮夜orz|主笔：门先生|背景构架：knowledge|校对、润色：远风
+intro:素材收集：星林、云箫|文案协助：梅义斯|音效、背景音乐：夜星兰、云箫|巫女立绘：Kshina|表情拆分：幽灵|引擎提供：邻家码农真昼酱
+end;
